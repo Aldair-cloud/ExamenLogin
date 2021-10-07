@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281577988658",
+    "firebase_url": "https://login-9bf16-default-rtdb.firebaseio.com",
+    "project_id": "login-9bf16",
+    "storage_bucket": "login-9bf16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281577988658:android:25b5ecca048b4cc186922b",
+        "android_client_info": {
+          "package_name": "com.example.examen1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281577988658-al5sqc79u4cef8d6ga8r9t4ajdr6jkcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-otAb7RwzitfJWWednQtUfziQdeiVDpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281577988658-al5sqc79u4cef8d6ga8r9t4ajdr6jkcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

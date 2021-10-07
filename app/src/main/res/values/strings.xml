@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Examen1</string>
+
+    <string name="invalid_mail">Ingrese un email válido</string>
+    <string name="invalid_password">Ingrese un password mayor a 6 digitos</string>
+
+
+</resources>

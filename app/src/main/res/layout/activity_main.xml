@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0008FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="-80dp"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/usario"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="230dp"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:cornerRadius="20dp">
+
+        <EditText
+            android:id="@+id/et_mail"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Usuario"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-36dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/usuarioicono" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:hint="Contraseña"
+            android:paddingTop="20dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-36dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/contrasenaicono" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            style="?attr/materialButtonOutlinedStyle"
+            android:text="Login"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:strokeColor="@color/purple_500"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"/>
+
+        <TextView
+            android:id="@+id/btn_registrar"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:fontFamily="sans-serif"
+            android:text="Registrate"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/btn_recuperar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste tu contraseña?"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:strokeColor="@color/purple_500"
+            android:textSize="13sp"
+            style="?attr/materialButtonOutlinedStyle"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
